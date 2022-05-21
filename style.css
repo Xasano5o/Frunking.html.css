@@ -207,6 +207,8 @@ body {
   height: 40px;
   padding-left: 30px;
   border-bottom: 0.8px solid #b0aeae;
+  cursor: pointer;
+ 
 }
 
 .product ul .none {
@@ -330,3 +332,404 @@ body {
   justify-content: center;
 }
 /* navbar end */
+
+
+/* 2 menu2-nav1 */
+
+.menu2-nav1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top:65px ;
+
+
+
+
+}
+.menu2-nav1text1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #555555;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menu2-nav1text2{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+margin-right: 110px;
+align-items: center;
+justify-content: center;
+  /* identical to box height, or 186% */
+  
+}
+.menu-2{
+
+  background: url(./img/menu23.png);
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  Width:956px;
+  Height:590px
+ }
+
+ .menubox-text1{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height, or 118% */
+  display: flex;
+  align-items: center;
+  color: #555555;
+  padding-left: 40px;
+  padding-top: 50px;
+ }
+ .menubox-text2
+ {
+ font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+
+display: flex;
+align-items: center;
+
+/* Main Color */
+
+color: #7AC751; 
+padding-left: 40px;
+padding-top: 20px;
+ }
+
+.menubox-text3
+{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  display: flex;
+  align-items: center;
+  color: #757575; 
+  padding-left: 40px;
+  padding-top: 20px
+  
+}
+ .menuboximg1{
+  position: absolute;
+  background: url(./img/menu22.png);
+  Width:485px;
+  Height: 247px;
+margin-left: 680px;
+bottom: -260px;
+
+} 
+.menuboximg2{
+  position: absolute;
+ display: flex;
+ background-image: url(./img/menu21.png);
+ height: 247px;
+width: 485px;
+left: 820.955078125px;
+border-radius: 0px;
+bottom: -580px;
+
+}
+
+.menuboximg1text1{
+position: absolute;
+top: 25px;
+left: 15px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+
+color: #555555;
+
+}
+.menuboximg1text2{
+position: absolute;
+top:50px;
+left: 15px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+
+display: flex;
+align-items: center;
+
+color: #7AC751;
+
+}
+.menuboximg1-text3{
+ position: absolute;
+ top: 75px;
+ left: 15px;
+ font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #757575;
+}
+
+
+.menuboximg2text1{
+position: absolute;
+left: 15px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+color: #555555;
+
+}
+.menuboximg2text2{
+position: absolute;
+top: 25px;
+left: 15px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #7AC751;
+
+}
+.menuboximg2-text3{
+position: absolute;
+top: 50px;
+left: 15px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #757575;
+
+}
+
+.menu3-navtext1{
+display: flex;
+align-items: center;
+justify-content: center;  
+}
+
+.menu3-nav{
+display: flex;  
+justify-content: space-evenly;
+margin-top: 20px;
+}
+/* menu-3 boshlandi */
+
+.menu-3{
+padding-top: 50px;
+}
+.wrapper {
+  display: grid;
+  height: 800px;
+  grid-template-columns: 1.2fr 1.2fr 1.2fr 1.2fr;
+  grid-template-rows: 1fr 1fr;
+  color: rgb(9, 3, 3);
+  grid-gap: 10px;
+}
+
+.box_a
+{
+background: url(img/menu-3.1.png);
+height: 287.819091796875px;
+width: 269.0287780761719px;
+border-radius: 0px;
+}
+
+.box_atext1{
+  padding-top: 285px;
+}
+.box_aa{
+  display: flex;
+}
+
+.menu_atext5{
+padding-left: 13px;  
+}
+/* 2 card  */
+
+.box_b
+{
+background: url(img/menu-3.2.png);
+height: 287.819091796875px;
+width: 269.0287780761719px;
+border-radius: 0px;
+}
+
+.box_btext1{
+  padding-top: 285px;
+}
+.box_bb{
+  display: flex;
+}
+
+.menu_btext5{
+padding-left: 13px;  
+}
+
+
+
+/* 3 card */
+.box_d
+{
+background: url(img/menu-3.3.png);
+height: 287.819091796875px;
+width: 269.0287780761719px;
+border-radius: 0px;
+}
+
+.box_dtext1{
+  padding-top: 285px;
+}
+.box_dd{
+  display: flex;
+}
+
+.menu_dtext5{
+padding-left: 13px;  
+}
+/* card 4 */
+.box_e
+{
+background: url(img/menu-3.4.png);
+height: 287.819091796875px;
+width: 269.0287780761719px;
+border-radius: 0px;
+}
+
+.box_etext1{
+  padding-top: 285px;
+}
+.box_ee{
+  display: flex;
+}
+
+.menu_etext5{
+padding-left: 13px;  
+}
+/* 5 card */
+.box_f
+{
+background: url(img/menu-3.5.png);
+height: 287.819091796875px;
+width: 269.0287780761719px;
+border-radius: 0px;
+}
+
+.box_ftext1{
+  padding-top: 285px;
+}
+.box_ff{
+  display: flex;
+}
+
+.menu_ftext5{
+padding-left: 13px;  
+}
+/* 6 card */
+.box_g
+{
+background: url(img/menu-3.6.png);
+height: 287.819091796875px;
+width: 269.0287780761719px;
+border-radius: 0px;
+}
+
+.box_gtext1{
+  padding-top: 285px;
+}
+.box_gg{
+  display: flex;
+}
+
+.menu_gtext5{
+padding-left: 13px;  
+}
+/* 7 card */
+.box_h
+{
+background: url(img/menu-3.7.png);
+height: 287.819091796875px;
+width: 269.0287780761719px;
+border-radius: 0px;
+}
+
+.box_htext1{
+  padding-top: 285px;
+}
+.box_hh{
+  display: flex;
+}
+
+.menu_htext5{
+padding-left: 13px;  
+}
+/* 8 card */
+.box_i
+{
+background: url(img/menu-3.8.png);
+height: 287.819091796875px;
+width: 269.0287780761719px;
+border-radius: 0px;
+}
+
+.box_itext1{
+  padding-top: 285px;
+}
+.box_ii{
+  display: flex;
+}
+
+.menu_itext5{
+padding-left: 13px;  
+}
+
+.menu3-nav1{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #7AC751;   
+}
+.menu3-nav2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #C2C2C2;
+  
+}
+.menu3-nav3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #C2C2C2;
+  
+}
